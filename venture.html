@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Venture — Juhyun (Tyler) Kim</title>
+<meta name="description" content="HoopTrust: an AI-verified recruiting pipeline connecting overlooked international student-athletes with U.S. college scholarships. Top 500 at the Blue Ocean pitch competition, provisional patent filed.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Venture — HoopTrust">
+<meta property="og:description" content="An AI-verified recruiting pipeline for overlooked international student-athletes.">
+<meta name="theme-color" content="#0a1626">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Inter:wght@300..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-position="venture">
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="shell masthead__inner">
+    <a class="wordmark" href="index.html">Juhyun Kim <span>김주현</span></a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Sections">
+      <a href="research.html" data-n="01">Research</a>
+      <a href="venture.html" data-n="02">Venture</a>
+      <a href="piano.html" data-n="03">Piano</a>
+      <a href="athletics.html" data-n="04">Athletics</a>
+      <a href="index.html#contact" data-n="">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ── hero ─────────────────────────────────────────────── -->
+  <section class="hero">
+    <svg class="hero__plot" viewBox="0 0 1200 300" preserveAspectRatio="none" aria-hidden="true">
+      <path class="plot-fill" d="M0,270 L160,264 L320,252 L480,228 L640,186 L800,128 L960,74 L1120,34 L1200,18 L1200,300 L0,300 Z"/>
+      <path d="M0,270 L160,264 L320,252 L480,228 L640,186 L800,128 L960,74 L1120,34 L1200,18"/>
+    </svg>
+    <div class="shell hero__inner">
+      <p class="tag">VN · 02 — Venture</p>
+      <h1 class="hero__name" style="font-size:clamp(2.6rem,1.4rem+5.5vw,5.6rem)">The players<br>nobody is<br>watching.</h1>
+      <p class="lede" style="margin-top:2rem">HoopTrust turns raw game footage into verified,
+      recruiter-ready profiles, so a basketball player in Jeju can be scouted the way a player in
+      Texas already is.</p>
+      <div class="btn-row" style="margin-top:2.2rem">
+        <a class="btn" href="#how">How it works <span aria-hidden="true">→</span></a>
+        <a class="btn btn--ghost" href="assets/docs/hooptrust-provisional-patent.pdf">Provisional patent filing <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── the product shot ─────────────────────────────────── -->
+  <section class="shell band band--tight">
+    <figure class="shot" data-reveal style="margin:0">
+      <img src="assets/img/hooptrust-hero.jpg" width="2000" height="1145"
+           alt="The HoopTrust landing page, showing a verified player profile card with per-game statistics and a trust score.">
+      <figcaption>The HoopTrust product scaffold. A player profile carries per-game statistics, a
+      school, and a <b>trust score</b> — the share of that profile's numbers the system verified
+      against footage rather than took on the player's word.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ── the problem ──────────────────────────────────────── -->
+  <section class="shell band" id="problem">
+    <div class="band__head">
+      <p class="eyebrow">The problem</p>
+      <h2 class="h-sect">Recruiting runs on trust, and trust does not travel.</h2>
+    </div>
+    <div class="about" data-reveal>
+      <div class="stack">
+        <p>A U.S. college coach recruiting domestically has a whole infrastructure standing behind
+        every number they read: circuit games they can attend, scouts they know, film they can
+        cross-check. None of that reaches an international player. The stats a player in Korea or
+        Nigeria or Lithuania submits are self-reported, unverifiable, and therefore discounted to
+        near zero by the person reading them.</p>
+        <p>So the bottleneck is not talent and it is not footage. Phones have solved footage. The
+        bottleneck is <em>credibility</em> — nobody can afford to send a human scout to watch a
+        player they have no reason to believe in yet, which means the player never gets the look
+        that would make them believable.</p>
+        <p>That is a classic blue ocean: the existing market competes hard over the players
+        everyone can already see, and ignores a far larger group of non-customers who are shut out
+        by the cost structure rather than by ability.</p>
+      </div>
+      <dl class="factsheet">
+        <div><dt>Non-customers</dt><dd>≈350 million people play basketball outside the U.S. recruiting funnel</dd></div>
+        <div><dt>Core barrier</dt><dd>Self-reported stats carry no verification</dd></div>
+        <div><dt>Status</dt><dd>MVP scaffold · provisional patent filed</dd></div>
+        <div><dt>Recognition</dt><dd>Top 500, Blue Ocean High School Entrepreneur Pitch Competition</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ── how it works ─────────────────────────────────────── -->
+  <section class="shell band" id="how">
+    <div class="band__head">
+      <p class="eyebrow">How it works</p>
+      <h2 class="h-sect">A digital scout that never sleeps.</h2>
+    </div>
+
+    <dl class="readout" data-reveal>
+      <div>
+        <dt>Verified metrics</dt>
+        <dd>15+</dd>
+        <small>Performance metrics extracted per game from raw footage</small>
+      </div>
+      <div>
+        <dt>Server overhead cut</dt>
+        <dd>60%</dd>
+        <small>By running inference on the edge instead of in the cloud</small>
+      </div>
+      <div>
+        <dt>Subscription</dt>
+        <dd>$29<small style="display:inline;font-size:.4em;letter-spacing:.1em"> /mo</small></dd>
+        <small>Priced to reach families the current market never quotes</small>
+      </div>
+      <div>
+        <dt>Addressable</dt>
+        <dd>350M</dd>
+        <small>Non-customers the incumbent funnel does not serve</small>
+      </div>
+    </dl>
+
+    <div class="entries" data-reveal style="margin-top:clamp(2.5rem,5vw,4rem)">
+
+      <article class="entry">
+        <h3 class="entry__title">A computer vision engine, not a stat sheet</h3>
+        <p class="entry__meta"><b>Core technology</b>Proprietary</p>
+        <p class="entry__role">The 24/7 digital scout</p>
+        <div class="entry__body">
+          <ul>
+            <li>Extracts <strong>over 15 verified performance metrics</strong> straight from raw
+            game footage, so the number and the evidence for the number arrive together.</li>
+            <li>Removes human bias from the record. A profile is not a claim a player makes about
+            themselves; it is a claim the footage supports.</li>
+            <li>Produces a per-profile <strong>trust score</strong> that tells a recruiter exactly
+            how much of what they are reading has been checked.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <h3 class="entry__title">Edge AI, because the unit economics have to work</h3>
+        <p class="entry__meta"><b>Architecture</b>Edge inference</p>
+        <p class="entry__role">Why it can be cheap</p>
+        <div class="entry__body">
+          <ul>
+            <li>Processing video in the cloud is what makes existing analysis tools expensive enough
+            to price out the exact families the product exists for.</li>
+            <li>Moving inference to the edge cuts <strong>server overhead by roughly 60%</strong>,
+            which is what makes a <strong>$29/month</strong> subscription viable rather than aspirational.</li>
+            <li>The cost structure is the strategy. A disruptive model only counts as disruptive if
+            the non-customer can actually afford to become a customer.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <h3 class="entry__title">Blue Ocean High School Entrepreneur Pitch Competition</h3>
+        <p class="entry__meta"><b>Top 500</b>February 2026</p>
+        <p class="entry__role">Participant — conceptualised and pitched HoopTrust</p>
+        <div class="entry__body">
+          <ul>
+            <li>Conceptualised and pitched the global, AI-verified recruiting pipeline designed to
+            connect international student-athletes with U.S. college scholarships.</li>
+            <li>Placed in the <strong>top 500</strong> of the competition.</li>
+            <li>Filed a <strong>provisional patent application</strong> covering the verification
+            approach.</li>
+          </ul>
+          <div class="btn-row" style="margin-top:1.4rem">
+            <a class="btn btn--ghost" href="assets/docs/hooptrust-provisional-patent.pdf">Read the filing <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="entry">
+        <h3 class="entry__title">HoopTrust</h3>
+        <p class="entry__meta"><b>Seoul, South Korea</b>Jul 2026 – present</p>
+        <p class="entry__role">Personal project — ongoing build</p>
+        <div class="entry__body">
+          <ul>
+            <li>Building the MVP scaffold: player profiles, a recruiter portal, and the verification
+            pass that sits between them.</li>
+            <li>Grew directly out of the startup business plan written during the entrepreneurship
+            extension program under Dr. Kit Hickey —
+            <a href="research.html#experience">the research that led here</a>.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+
+    <nav class="pager" style="margin-top:3.5rem" aria-label="Sections">
+      <a href="research.html">← RS · 01 — Research</a>
+      <a href="piano.html">PN · 03 — Piano →</a>
+    </nav>
+  </section>
+
+</main>
+
+<section class="contact" id="contact">
+  <div class="shell">
+    <p class="eyebrow">Contact</p>
+    <h2 class="h-sect">Happy to talk about any of it.</h2>
+    <dl class="contact__grid">
+      <div><dt>Email</dt><dd><a href="mailto:juhyunkim.080611@gmail.com">juhyunkim.080611@gmail.com</a></dd></div>
+      <div><dt>Location</dt><dd>Seoul &amp; Seogwipo, South Korea</dd></div>
+      <div><dt>Writing</dt><dd><a href="http://www.studentinsight.net/" rel="noopener">Student Insight</a></dd></div>
+      <div><dt>Résumé</dt><dd><a href="assets/docs/Juhyun-Kim-Resume.pdf">Download PDF</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<footer class="shell foot">
+  <span>© 2026 Juhyun Kim · 김주현</span>
+  <span><a href="research.html" data-n="01">Research</a> · <a href="venture.html" data-n="02">Venture</a> ·
+  <a href="piano.html" data-n="03">Piano</a> · <a href="athletics.html" data-n="04">Athletics</a></span>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
